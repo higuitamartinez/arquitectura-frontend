@@ -1,0 +1,28 @@
+
+
+.codigo{
+    display: flex;
+    align-items: center;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 1.5rem;
+    button{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.editar{
+    color: var(--grayLetter);
+}
+
+.eliminar{
+    color: var(--grayLetter);
+}

@@ -1,0 +1,25 @@
+
+
+.columna{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombreBd{
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.borrar{
+    color: red;
+}

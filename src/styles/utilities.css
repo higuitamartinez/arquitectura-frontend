@@ -1,0 +1,129 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container-min{
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.field{
+    margin-bottom: 1.3rem;
+    label{
+        display: block;
+        margin-bottom: .5rem;
+        font-weight: 700;
+    }
+    input,select{
+        width: 100%;
+        border: 1px solid var(--gray);
+        border-radius: .3rem;
+        height: 3.5rem;
+        padding: 0 .8rem;
+    }
+    input:focus-visible{
+        outline: 1px solid var(--golden);
+    }
+}
+
+
+.btn{
+    font-weight: 600;
+    padding: .8rem 1rem;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    transition: .3s ease background-color;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.btn-golden{
+    background-color: var(--golden);
+    color: #FFF;
+}
+
+.btn-golden-light{
+    background-color: var(--goldenLight);
+    color: var(--golden);
+}
+
+.btn-golden-light:hover{
+    background-color: var(--goldenLightDark);
+}
+
+.btn-golden:hover{
+    background-color: var(--goldenDark);
+}
+
+.btn-gray-light{
+    background-color: var(--grayLight);
+    color: var(--grayLetter);
+}
+
+.btn-gray-light:hover{
+    background-color: var(--grayLightDark);
+    color: var(--grayLetter);
+}
+
+.btn-gray-table{
+    background-color: var(--grayTable);
+    color: var(--grayLetter);
+    border: 1px solid var(--gray);
+}
+
+.container-btn{
+    display: flex;
+    justify-content: flex-end;
+    .btn{
+        margin-right: 2rem;
+    }
+}
+
+.title{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+
+.tabla{
+    margin: 2rem 0;
+    th{
+        padding: 1rem 1.5rem;
+        background-color: var(--grayTable);
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    td{
+        background-color: #FFF;
+        padding: 1rem;
+    }
+}
+
+.contenedor-tabla{
+    width: 100%;
+    overflow: auto;
+}
+
+.contenedor-tabla-btn{
+    display: flex;
+    
+    a{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+        margin-right: 2rem;
+    }
+}

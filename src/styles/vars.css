@@ -1,0 +1,23 @@
+:root{
+    --golden: #B8A25A;
+    --goldenDark: #A79250;
+    --gray: #E1E1E1;
+    --grayLight: #F2F5F8;
+    --grayLightDark: #e1e5e9;
+    --grayLetter: #5F6368;
+    --grayTable: #FAFAFA;
+    --goldenLight: rgba(184,162,90,0.08);
+    --goldenLightDark: rgba(184,162,90,0.2);
+    --yellow: rgb(255, 251, 232);
+    --black: #33373B;
+    --orange: #F26100;
+    --error: #DB2B30;
+    --errorLight: #F8E6E6;
+    --overlay: rgba(0, 0, 0, 0.39);
+    --grayIcon: #71839B;
+    --green: #0BBF59;
+    --loading: #EBEBEB;
+    --toastify-toast-min-height: 52px;
+    --toastify-font-family: "Inter", sans-serif;
+    --toastify-toast-bd-radius: .3rem;
+}

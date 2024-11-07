@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    padding: 0 2rem;
+    font-weight: 500;
+    transition: .3s ease background-color;
+    border-right: 1px solid var(--gray);
+    &:hover{
+        background-color: var(--grayLight);
+    }
+}
